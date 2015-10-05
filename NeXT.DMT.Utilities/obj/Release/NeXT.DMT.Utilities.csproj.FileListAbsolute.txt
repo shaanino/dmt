@@ -1,0 +1,7 @@
+C:\DMT\dmt\NeXT.DMT.Utilities\bin\Release\NeXT.DMT.Utilities.dll
+C:\DMT\dmt\NeXT.DMT.Utilities\bin\Release\NeXT.DMT.Utilities.pdb
+C:\DMT\dmt\NeXT.DMT.Utilities\bin\Release\DocumentFormat.OpenXml.dll
+C:\DMT\dmt\NeXT.DMT.Utilities\bin\Release\DocumentFormat.OpenXml.xml
+C:\DMT\dmt\NeXT.DMT.Utilities\obj\Release\NeXT.DMT.Utilities.csprojResolveAssemblyReference.cache
+C:\DMT\dmt\NeXT.DMT.Utilities\obj\Release\NeXT.DMT.Utilities.dll
+C:\DMT\dmt\NeXT.DMT.Utilities\obj\Release\NeXT.DMT.Utilities.pdb

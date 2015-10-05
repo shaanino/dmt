@@ -1,0 +1,17 @@
+C:\DMT\dmt\NeXT.DMT.Services.Implementation\bin\Release\NeXT.DMT.Services.Implementation.dll
+C:\DMT\dmt\NeXT.DMT.Services.Implementation\bin\Release\NeXT.DMT.Services.Implementation.pdb
+C:\DMT\dmt\NeXT.DMT.Services.Implementation\bin\Release\log4net.dll
+C:\DMT\dmt\NeXT.DMT.Services.Implementation\bin\Release\NeXT.DMT.DataAccess.dll
+C:\DMT\dmt\NeXT.DMT.Services.Implementation\bin\Release\NeXT.DMT.Entities.dll
+C:\DMT\dmt\NeXT.DMT.Services.Implementation\bin\Release\NeXT.DMT.Services.Contracts.dll
+C:\DMT\dmt\NeXT.DMT.Services.Implementation\bin\Release\DocumentFormat.OpenXml.dll
+C:\DMT\dmt\NeXT.DMT.Services.Implementation\bin\Release\NeXT.DMT.Utilities.dll
+C:\DMT\dmt\NeXT.DMT.Services.Implementation\bin\Release\NeXT.DMT.DataAccess.pdb
+C:\DMT\dmt\NeXT.DMT.Services.Implementation\bin\Release\NeXT.DMT.Entities.pdb
+C:\DMT\dmt\NeXT.DMT.Services.Implementation\bin\Release\NeXT.DMT.Services.Contracts.pdb
+C:\DMT\dmt\NeXT.DMT.Services.Implementation\bin\Release\log4net.xml
+C:\DMT\dmt\NeXT.DMT.Services.Implementation\bin\Release\DocumentFormat.OpenXml.xml
+C:\DMT\dmt\NeXT.DMT.Services.Implementation\bin\Release\NeXT.DMT.Utilities.pdb
+C:\DMT\dmt\NeXT.DMT.Services.Implementation\obj\Release\NeXT.DMT.Services.Implementation.csprojResolveAssemblyReference.cache
+C:\DMT\dmt\NeXT.DMT.Services.Implementation\obj\Release\NeXT.DMT.Services.Implementation.dll
+C:\DMT\dmt\NeXT.DMT.Services.Implementation\obj\Release\NeXT.DMT.Services.Implementation.pdb

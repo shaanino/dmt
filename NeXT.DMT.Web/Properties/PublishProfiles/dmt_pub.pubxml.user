@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\ouvashisht.banka\Desktop\dmt_publish</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ajax/AjaxHandler.ashx">
+      <publishTime>06/17/2012 13:44:25</publishTime>
+    </File>
+    <File Include="ajax/AppHandler.ashx">
+      <publishTime>07/07/2012 19:07:15</publishTime>
+    </File>
+    <File Include="ajax/AutoSuggestHandler.ashx">
+      <publishTime>06/19/2012 20:18:07</publishTime>
+    </File>
+    <File Include="ajax/DMTHandler.ashx">
+      <publishTime>06/17/2012 13:53:30</publishTime>
+    </File>
+    <File Include="AppSettings.config">
+      <publishTime>09/29/2015 11:43:57</publishTime>
+    </File>
+    <File Include="App_LocalResources/Index.aspx.resx">
+      <publishTime>08/26/2012 21:57:12</publishTime>
+    </File>
+    <File Include="bin/DocumentFormat.OpenXml.dll">
+      <publishTime>04/12/2012 09:16:05</publishTime>
+    </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>04/24/2012 22:03:15</publishTime>
+    </File>
+    <File Include="bin/NeXT.DMT.DataAccess.dll">
+      <publishTime>10/05/2015 14:25:37</publishTime>
+    </File>
+    <File Include="bin/NeXT.DMT.Entities.dll">
+      <publishTime>10/05/2015 14:25:36</publishTime>
+    </File>
+    <File Include="bin/NeXT.DMT.Services.Contracts.dll">
+      <publishTime>10/05/2015 14:25:38</publishTime>
+    </File>
+    <File Include="bin/NeXT.DMT.Services.Implementation.dll">
+      <publishTime>10/05/2015 14:25:39</publishTime>
+    </File>
+    <File Include="bin/NeXT.DMT.Utilities.dll">
+      <publishTime>10/05/2015 14:25:34</publishTime>
+    </File>
+    <File Include="bin/NeXT.DMT.Web.dll">
+      <publishTime>10/05/2015 14:25:41</publishTime>
+    </File>
+    <File Include="css/base/images/ui-bg_flat_0_aaaaaa_40x100.png">
+      <publishTime>06/25/2012 14:17:59</publishTime>
+    </File>
+    <File Include="css/base/images/ui-bg_flat_75_ffffff_40x100.png">
+      <publishTime>06/25/2012 14:17:59</publishTime>
+    </File>
+    <File Include="css/base/images/ui-bg_glass_55_fbf9ee_1x400.png">
+      <publishTime>06/25/2012 14:17:59</publishTime>
+    </File>
+    <File Include="css/base/images/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>06/25/2012 14:17:59</publishTime>
+    </File>
+    <File Include="css/base/images/ui-bg_glass_75_dadada_1x400.png">
+      <publishTime>06/25/2012 14:17:59</publishTime>
+    </File>
+    <File Include="css/base/images/ui-bg_glass_75_e6e6e6_1x400.png">
+      <publishTime>06/25/2012 14:17:59</publishTime>
+    </File>
+    <File Include="css/base/images/ui-bg_glass_95_fef1ec_1x400.png">
+      <publishTime>06/25/2012 14:17:59</publishTime>
+    </File>
+    <File Include="css/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png">
+      <publishTime>06/25/2012 14:17:59</publishTime>
+    </File>
+    <File Include="css/base/images/ui-icons_222222_256x240.png">
+      <publishTime>06/25/2012 14:17:59</publishTime>
+    </File>
+    <File Include="css/base/images/ui-icons_2e83ff_256x240.png">
+      <publishTime>06/25/2012 14:17:59</publishTime>
+    </File>
+    <File Include="css/base/images/ui-icons_454545_256x240.png">
+      <publishTime>06/25/2012 14:17:59</publishTime>
+    </File>
+    <File Include="css/base/images/ui-icons_888888_256x240.png">
+      <publishTime>06/25/2012 14:17:59</publishTime>
+    </File>
+    <File Include="css/base/images/ui-icons_cd0a0a_256x240.png">
+      <publishTime>06/25/2012 14:17:59</publishTime>
+    </File>
+    <File Include="css/base/jquery.ui.core.css">
+      <publishTime>06/25/2012 14:17:59</publishTime>
+    </File>
+    <File Include="css/base/jquery.ui.datepicker.css">
+      <publishTime>06/25/2012 14:17:59</publishTime>
+    </File>
+    <File Include="css/base/jquery.ui.theme.css">
+      <publishTime>04/30/2012 18:44:14</publishTime>
+    </File>
+    <File Include="css/colorbox.css">
+      <publishTime>06/12/2012 22:19:21</publishTime>
+    </File>
+    <File Include="css/metro.css">
+      <publishTime>07/12/2012 22:20:14</publishTime>
+    </File>
+    <File Include="css/style.css">
+      <publishTime>09/17/2012 22:19:21</publishTime>
+    </File>
+    <File Include="css/token-input-facebook.css">
+      <publishTime>06/26/2012 22:17:37</publishTime>
+    </File>
+    <File Include="css/token-input.css">
+      <publishTime>06/19/2012 20:34:00</publishTime>
+    </File>
+    <File Include="DMT.Master">
+      <publishTime>09/16/2012 18:42:41</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>06/09/2012 22:30:39</publishTime>
+    </File>
+    <File Include="images/bg.png">
+      <publishTime>05/01/2012 13:59:33</publishTime>
+    </File>
+    <File Include="images/colorbox/border1.png">
+      <publishTime>06/12/2012 22:12:30</publishTime>
+    </File>
+    <File Include="images/colorbox/border2.png">
+      <publishTime>06/12/2012 22:12:30</publishTime>
+    </File>
+    <File Include="images/colorbox/ie6/borderBottomCenter.png">
+      <publishTime>06/12/2012 22:12:30</publishTime>
+    </File>
+    <File Include="images/colorbox/ie6/borderBottomLeft.png">
+      <publishTime>06/12/2012 22:12:30</publishTime>
+    </File>
+    <File Include="images/colorbox/ie6/borderBottomRight.png">
+      <publishTime>06/12/2012 22:12:30</publishTime>
+    </File>
+    <File Include="images/colorbox/ie6/borderMiddleLeft.png">
+      <publishTime>06/12/2012 22:12:30</publishTime>
+    </File>
+    <File Include="images/colorbox/ie6/borderMiddleRight.png">
+      <publishTime>06/12/2012 22:12:30</publishTime>
+    </File>
+    <File Include="images/colorbox/ie6/borderTopCenter.png">
+      <publishTime>06/12/2012 22:12:30</publishTime>
+    </File>
+    <File Include="images/colorbox/ie6/borderTopLeft.png">
+      <publishTime>06/12/2012 22:12:30</publishTime>
+    </File>
+    <File Include="images/colorbox/ie6/borderTopRight.png">
+      <publishTime>06/12/2012 22:12:30</publishTime>
+    </File>
+    <File Include="images/colorbox/loading.gif">
+      <publishTime>06/12/2012 22:12:30</publishTime>
+    </File>
+    <File Include="images/loader_l.gif">
+      <publishTime>05/19/2012 22:28:23</publishTime>
+    </File>
+    <File Include="images/loader_s.gif">
+      <publishTime>05/19/2012 22:28:57</publishTime>
+    </File>
+    <File Include="images/remove.png">
+      <publishTime>06/03/2012 17:36:22</publishTime>
+    </File>
+    <File Include="images/remove2.png">
+      <publishTime>06/23/2012 21:48:38</publishTime>
+    </File>
+    <File Include="images/step1.png">
+      <publishTime>07/11/2012 22:21:50</publishTime>
+    </File>
+    <File Include="images/step2.png">
+      <publishTime>07/11/2012 22:35:56</publishTime>
+    </File>
+    <File Include="images/step3.png">
+      <publishTime>07/11/2012 22:43:40</publishTime>
+    </File>
+    <File Include="images/step4.png">
+      <publishTime>07/11/2012 22:47:39</publishTime>
+    </File>
+    <File Include="Index.aspx">
+      <publishTime>09/17/2012 22:13:28</publishTime>
+    </File>
+    <File Include="js/colorbox.js">
+      <publishTime>06/02/2012 21:55:46</publishTime>
+    </File>
+    <File Include="js/functions.js">
+      <publishTime>09/17/2012 22:09:14</publishTime>
+    </File>
+    <File Include="js/jmetro.js">
+      <publishTime>06/03/2012 20:12:26</publishTime>
+    </File>
+    <File Include="js/jquery.expandable.js">
+      <publishTime>07/01/2012 22:28:44</publishTime>
+    </File>
+    <File Include="js/jquery.js">
+      <publishTime>04/26/2012 22:56:32</publishTime>
+    </File>
+    <File Include="js/jquery.tokeninput.js">
+      <publishTime>06/25/2012 13:50:14</publishTime>
+    </File>
+    <File Include="js/jqueryui/jquery.ui.core.min.js">
+      <publishTime>06/25/2012 14:06:01</publishTime>
+    </File>
+    <File Include="js/jqueryui/jquery.ui.datepicker.min.js">
+      <publishTime>06/25/2012 14:06:01</publishTime>
+    </File>
+    <File Include="js/jqueryui/jquery.ui.widget.min.js">
+      <publishTime>06/25/2012 14:05:45</publishTime>
+    </File>
+    <File Include="log4net.config">
+      <publishTime>06/10/2012 22:12:00</publishTime>
+    </File>
+    <File Include="ReferenceService.svc">
+      <publishTime>05/05/2012 23:03:19</publishTime>
+    </File>
+    <File Include="Test.aspx">
+      <publishTime>06/09/2012 22:19:08</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/05/2015 14:25:43</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

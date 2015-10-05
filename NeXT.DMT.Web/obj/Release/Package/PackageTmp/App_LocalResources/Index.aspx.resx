@@ -1,0 +1,486 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ButtonAddChangeAndQCResource.Text" xml:space="preserve">
+    <value>Add Another Document</value>
+  </data>
+  <data name="ButtonAddChangeAndQCResource.ToolTip" xml:space="preserve">
+    <value>Add Another Document</value>
+  </data>
+  <data name="ButtonGenerateResource.Text" xml:space="preserve">
+    <value>Generate !</value>
+  </data>
+  <data name="ButtonGenerateResource.ToolTip" xml:space="preserve">
+    <value>Generate !</value>
+  </data>
+  <data name="ButtonNextResource.Text" xml:space="preserve">
+    <value>NeXT</value>
+  </data>
+  <data name="ButtonNextResource.ToolTip" xml:space="preserve">
+    <value>NeXT</value>
+  </data>
+  <data name="ButtonPreviousResource.Text" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="ButtonPreviousResource.ToolTip" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="CheckBoxListDeliverablesListItemBatchResource.Text" xml:space="preserve">
+    <value>Batch</value>
+  </data>
+  <data name="CheckBoxListDeliverablesListItemBatchTestScript.Text" xml:space="preserve">
+    <value>Test Script</value>
+  </data>
+  <data name="CheckBoxListDeliverablesListItemDatabaseResource.Text" xml:space="preserve">
+    <value>Database</value>
+  </data>
+  <data name="CheckBoxListDeliverablesListItemK2WebServiceResource.Text" xml:space="preserve">
+    <value>K2 Web Service</value>
+  </data>
+  <data name="CheckBoxListDeliverablesListItemReportResource.Text" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="CheckBoxListDeliverablesListItemWebResource.Text" xml:space="preserve">
+    <value>Web</value>
+  </data>
+  <data name="CheckBoxListDeliverablesListItemWebServiceResource.Text" xml:space="preserve">
+    <value>Web Service</value>
+  </data>
+  <data name="CheckBoxListDeliverablesListItemWorkflowResource.Text" xml:space="preserve">
+    <value>K2 Process</value>
+  </data>
+  <data name="CheckBoxListEnvironmentsListItemINT.Text" xml:space="preserve">
+    <value>INT</value>
+  </data>
+  <data name="CheckBoxListEnvironmentsListItemINT.ToolTip" xml:space="preserve">
+    <value>INT</value>
+  </data>
+  <data name="CheckBoxListEnvironmentsListItemPROD.Text" xml:space="preserve">
+    <value>PROD</value>
+  </data>
+  <data name="CheckBoxListEnvironmentsListItemPROD.ToolTip" xml:space="preserve">
+    <value>PROD</value>
+  </data>
+  <data name="CheckBoxListEnvironmentsListItemSTA.Text" xml:space="preserve">
+    <value>STA</value>
+  </data>
+  <data name="CheckBoxListEnvironmentsListItemSTA.ToolTip" xml:space="preserve">
+    <value>STA</value>
+  </data>
+  <data name="CheckBoxListEnvironmentsListItemUAT.Text" xml:space="preserve">
+    <value>UAT</value>
+  </data>
+  <data name="CheckBoxListEnvironmentsListItemUAT.ToolTip" xml:space="preserve">
+    <value>UAT</value>
+  </data>
+  <data name="HyperLinkCreateNewResource.Text" xml:space="preserve">
+    <value>Create New ?</value>
+  </data>
+  <data name="HyperLinkCreateNewResource.ToolTip" xml:space="preserve">
+    <value>Create New ?</value>
+  </data>
+  <data name="LabelApplicationLabelIsFullResource.Text" xml:space="preserve">
+    <value>Type of delivery</value>
+  </data>
+  <data name="LabelApplicationLabelIsFullResource.ToolTip" xml:space="preserve">
+    <value>Type of delivery</value>
+  </data>
+  <data name="LabelApplicationListResource.Text" xml:space="preserve">
+    <value>Application</value>
+  </data>
+  <data name="LabelApplicationListResource.ToolTip" xml:space="preserve">
+    <value>What is your application ?</value>
+  </data>
+  <data name="LabelApprovedBYResource.Text" xml:space="preserve">
+    <value>Approved By</value>
+  </data>
+  <data name="LabelApprovedBYResource.ToolTip" xml:space="preserve">
+    <value>Approved By</value>
+  </data>
+  <data name="LabelBatchFileResource.Text" xml:space="preserve">
+    <value>Batch SVN Link</value>
+  </data>
+  <data name="LabelBatchFileResource.ToolTip" xml:space="preserve">
+    <value>Batch SVN Link</value>
+  </data>
+  <data name="LabelChangeQCIDResource.Text" xml:space="preserve">
+    <value>Change / QC</value>
+  </data>
+  <data name="LabelChangeQCIDResource.ToolTip" xml:space="preserve">
+    <value>Change / QC</value>
+  </data>
+  <data name="LabelChangeQCIDShortDescriptionResource.Text" xml:space="preserve">
+    <value>Short Description</value>
+  </data>
+  <data name="LabelChangeQCIDShortDescriptionResource.ToolTip" xml:space="preserve">
+    <value>Short Description</value>
+  </data>
+  <data name="LabelChangeReasonResource.Text" xml:space="preserve">
+    <value>Change reason</value>
+  </data>
+  <data name="LabelChangeReasonResource.ToolTip" xml:space="preserve">
+    <value>Chnage reason</value>
+  </data>
+  <data name="LabelDatabaseResource.Text" xml:space="preserve">
+    <value>Database SVN Link</value>
+  </data>
+  <data name="LabelDatabaseResource.ToolTip" xml:space="preserve">
+    <value>Database SVN Link</value>
+  </data>
+  <data name="LabelDeliverablesResource.Text" xml:space="preserve">
+    <value>Deliverables</value>
+  </data>
+  <data name="LabelDeliverablesResource.ToolTip" xml:space="preserve">
+    <value>Deliverables</value>
+  </data>
+  <data name="LabelDeliveryDateResource.Text" xml:space="preserve">
+    <value>Delivery Date</value>
+  </data>
+  <data name="LabelDeliveryDateResource.ToolTip" xml:space="preserve">
+    <value>Delivery Date</value>
+  </data>
+  <data name="LabelDelvDocumentationLinkResource.Text" xml:space="preserve">
+    <value>Link</value>
+  </data>
+  <data name="LabelDelvDocumentationLinkResource.ToolTip" xml:space="preserve">
+    <value>Link</value>
+  </data>
+  <data name="LabelDelvDocumentationNameResource.Text" xml:space="preserve">
+    <value>Document name</value>
+  </data>
+  <data name="LabelDelvDocumentationNameResource.ToolTip" xml:space="preserve">
+    <value>Document name</value>
+  </data>
+  <data name="LabelDelvDocumentationRemarkResource.Text" xml:space="preserve">
+    <value>Remark</value>
+  </data>
+  <data name="LabelDelvDocumentationRemarkResource.ToolTip" xml:space="preserve">
+    <value>Remark</value>
+  </data>
+  <data name="LabelEnvironmentsResource.Text" xml:space="preserve">
+    <value>Environments</value>
+  </data>
+  <data name="LabelEnvironmentsResource.ToolTip" xml:space="preserve">
+    <value>Environments</value>
+  </data>
+  <data name="LabelExpectedDateResource.Text" xml:space="preserve">
+    <value>Delivery Date</value>
+  </data>
+  <data name="LabelExpectedDateResource.ToolTip" xml:space="preserve">
+    <value>Delivery Date</value>
+  </data>
+  <data name="LabelExpectedDurationResource.Text" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="LabelExpectedDurationResource.ToolTip" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="LabelExpectedTimeResource.Text" xml:space="preserve">
+    <value>Delivery Time</value>
+  </data>
+  <data name="LabelExpectedTimeResource.ToolTip" xml:space="preserve">
+    <value>Delivery Time</value>
+  </data>
+  <data name="LabelIFTResource.Text" xml:space="preserve">
+    <value>IFT</value>
+  </data>
+  <data name="LabelIFTResource.ToolTip" xml:space="preserve">
+    <value>IFT</value>
+  </data>
+  <data name="LabelIsCorrectiveResource.Text" xml:space="preserve">
+    <value>Type of delivery</value>
+  </data>
+  <data name="LabelIsCorrectiveResource.ToolTip" xml:space="preserve">
+    <value>Type of delivery</value>
+  </data>
+  <data name="LabelISITEntityResource.Text" xml:space="preserve">
+    <value>IS/IT Entity</value>
+  </data>
+  <data name="LabelISITEntityResource.ToolTip" xml:space="preserve">
+    <value>IS/IT Entity</value>
+  </data>
+  <data name="LabelK2ProcessResource.Text" xml:space="preserve">
+    <value>K2 Process SVN Link</value>
+  </data>
+  <data name="LabelK2ProcessResource.ToolTip" xml:space="preserve">
+    <value>K2 Process SVN Link</value>
+  </data>
+  <data name="LabelK2WebServiceResource.Text" xml:space="preserve">
+    <value>K2 Web Service SVN Link</value>
+  </data>
+  <data name="LabelK2WebServiceResource.ToolTip" xml:space="preserve">
+    <value>K2 Web Service SVN Link</value>
+  </data>
+  <data name="LabelNewVersionResource.Text" xml:space="preserve">
+    <value>New Version</value>
+  </data>
+  <data name="LabelNewVersionResource.ToolTip" xml:space="preserve">
+    <value>New Version</value>
+  </data>
+  <data name="LabelOldVersionResource.Text" xml:space="preserve">
+    <value>Old Version</value>
+  </data>
+  <data name="LabelOldVersionResource.ToolTip" xml:space="preserve">
+    <value>Old Version</value>
+  </data>
+  <data name="LabelPreparedBYResource.Text" xml:space="preserve">
+    <value>Prepared By</value>
+  </data>
+  <data name="LabelPreparedBYResource.ToolTip" xml:space="preserve">
+    <value>Prepared By</value>
+  </data>
+  <data name="LabelPriorityResource.Text" xml:space="preserve">
+    <value>Priority</value>
+  </data>
+  <data name="LabelPriorityResource.ToolTip" xml:space="preserve">
+    <value>Priority</value>
+  </data>
+  <data name="LabelQualificationOfRequestResource.Text" xml:space="preserve">
+    <value>Qualification of request</value>
+  </data>
+  <data name="LabelQualificationOfRequestResource.ToolTip" xml:space="preserve">
+    <value>Qualification of request</value>
+  </data>
+  <data name="LabelRegulatedEnvironmentResource.Text" xml:space="preserve">
+    <value>Regulated Environment</value>
+  </data>
+  <data name="LabelRegulatedEnvironmentResource.ToolTip" xml:space="preserve">
+    <value>Regulated Environment</value>
+  </data>
+  <data name="LabelReportResource.Text" xml:space="preserve">
+    <value>Report SVN Link</value>
+  </data>
+  <data name="LabelReportResource.ToolTip" xml:space="preserve">
+    <value>Report SVN Link</value>
+  </data>
+  <data name="LabelSubmittedBYResource.Text" xml:space="preserve">
+    <value>Submitted By</value>
+  </data>
+  <data name="LabelSubmittedBYResource.ToolTip" xml:space="preserve">
+    <value>Submitted By</value>
+  </data>
+  <data name="LabelSubmittedDateResource.Text" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="LabelSubmittedDateResource.ToolTip" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="LabelTestScriptResource.Text" xml:space="preserve">
+    <value>TestScript SVN Link</value>
+  </data>
+  <data name="LabelTestScriptResource.ToolTip" xml:space="preserve">
+    <value>TestScript SVN Link</value>
+  </data>
+  <data name="LabelVersionResource.Text" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="LabelVersionResource.ToolTip" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="LabelWebResource.Text" xml:space="preserve">
+    <value>Web SVN Link</value>
+  </data>
+  <data name="LabelWebResource.ToolTip" xml:space="preserve">
+    <value>Web SVN Link</value>
+  </data>
+  <data name="LabelWebServiceResource.Text" xml:space="preserve">
+    <value>Web Service SVN Link</value>
+  </data>
+  <data name="LabelWebServiceResource.ToolTip" xml:space="preserve">
+    <value>Web Service SVN Link</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>Deployment Management Tool</value>
+  </data>
+  <data name="RadioButtonListHaveIFTListItemNoResource.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="RadioButtonListHaveIFTListItemYesResource.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="RadioButtonListLabelIsCorrectiveResource.Text" xml:space="preserve">
+    <value>Corrective</value>
+  </data>
+  <data name="RadioButtonListLabelIsEvolutiveResource.Text" xml:space="preserve">
+    <value>Evolutive</value>
+  </data>
+  <data name="RadioButtonListLabelIsFullNoResource.Text" xml:space="preserve">
+    <value>Delta</value>
+  </data>
+  <data name="RadioButtonListLabelIsFullYesResource.Text" xml:space="preserve">
+    <value>Full</value>
+  </data>
+  <data name="RadioButtonListPriorityOneResource.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="RadioButtonListPriorityThreeResource.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="RadioButtonListPriorityTwoResource.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="RadioButtonListQualificationOfRequestMajorResource.Text" xml:space="preserve">
+    <value>Major</value>
+  </data>
+  <data name="RadioButtonListQualificationOfRequestMediumResource.Text" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="RadioButtonListQualificationOfRequestMinorResource.Text" xml:space="preserve">
+    <value>Minor</value>
+  </data>
+  <data name="RadioButtonListRegulatedEnvironmentGXPImpactResource.Text" xml:space="preserve">
+    <value>GXP Impact</value>
+  </data>
+  <data name="RadioButtonListRegulatedEnvironmentNoImpactResource.Text" xml:space="preserve">
+    <value>No Impact</value>
+  </data>
+  <data name="RadioButtonListRegulatedEnvironmentSOAImpactResource.Text" xml:space="preserve">
+    <value>SOA Impact</value>
+  </data>
+  <data name="LabelCheckBoxCodeReviewResource.Text" xml:space="preserve">
+    <value>&lt;b&gt;Code Review&lt;/b&gt; has been done and checklist stored on Shared Drive</value>
+  </data>
+  <data name="LabelCheckBoxCodeReviewResource.ToolTip" xml:space="preserve">
+    <value>Code Review has been done and checklist stored on Shared Drive</value>
+  </data>
+  <data name="LabelCheckBoxHPSD1Resource.Text" xml:space="preserve">
+    <value>Please make sure that your HPSD tickets are in &lt;b&gt;Waiting-CH&lt;/b&gt; and that you have added a comment to the &lt;b&gt;Communication&lt;/b&gt; tab</value>
+  </data>
+  <data name="LabelCheckBoxHPSD1Resource.ToolTip" xml:space="preserve">
+    <value>Please make sure that your HPSD tickets are in Waiting-CHand that you have added a comment to the Communication tab</value>
+  </data>
+  <data name="LabelCheckBoxHPSD2Resource.Text" xml:space="preserve">
+    <value>If your have HPSD tickets of type &lt;b&gt;Evolution&lt;/b&gt;, please make sure that you have created a &lt;b&gt;Work Order&lt;/b&gt; and attached it to the ticket</value>
+  </data>
+  <data name="LabelCheckBoxHPSD2Resource.ToolTip" xml:space="preserve">
+    <value>If your have HPSD tickets of type Evolution, please make sure that you have created a Work Order and attached it to the ticket</value>
+  </data>
+  <data name="LabelCheckBoxQCResource.Text" xml:space="preserve">
+    <value>If your delivering &lt;b&gt;QC's&lt;/b&gt; ensure that their status are as &lt;b&gt;Fixed&lt;/b&gt; and that you have added a comment in the &lt;b&gt;Communication&lt;/b&gt; tab</value>
+  </data>
+  <data name="LabelCheckBoxQCResource.ToolTip" xml:space="preserve">
+    <value>If your delivering QC's ensure that their status are as Fixed and that you have added a comment in the Communication tab</value>
+  </data>
+  <data name="CheckBoxDocVersionTrackingResource.Text" xml:space="preserve">
+    <value>When uploading your documents on eRoom make sure to use &lt;b&gt;Version Tracking&lt;/b&gt;</value>
+  </data>
+  <data name="CheckBoxDocVersionTrackingResource.ToolTip" xml:space="preserve">
+    <value>When uploading your documents on eRoom make sure to use Version Tracking</value>
+  </data>
+</root>

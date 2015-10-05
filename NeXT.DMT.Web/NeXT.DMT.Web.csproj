@@ -130,6 +130,9 @@
     <None Include="Properties\DataSources\NeXT.DMT.Entities.ApplicationConfigBE.datasource" />
     <None Include="Properties\DataSources\NeXT.DMT.Entities.DeliverableBE.datasource" />
     <None Include="Properties\DataSources\NeXT.DMT.Entities.PersonBE.datasource" />
+    <None Include="Properties\PublishProfiles\dmt_pub.pubxml" />
+    <None Include="Properties\PublishProfiles\Profile1.pubxml" />
+    <None Include="Properties\PublishProfiles\Profile2.pubxml" />
     <None Include="Service References\ReferenceService\ReferenceService.disco" />
     <None Include="Service References\ReferenceService\configuration91.svcinfo" />
     <None Include="Service References\ReferenceService\configuration.svcinfo" />
