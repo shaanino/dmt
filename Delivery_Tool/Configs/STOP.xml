@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<STOP>
+  
+  <INT>
+    
+    <Info>
+      <AppSettingEnv>INT</AppSettingEnv>
+      <AppTestUrl>http://int.stop.sanofi-aventis.com/STOP/Unsecured/ViewConfig.aspx</AppTestUrl>
+      <WEBPhysicalLocation>\$d\Intranet\Apps\WOLF_STOP</WEBPhysicalLocation>
+      <WSPhysicalLocation>\$d\Intranet\Apps\WOLF_STOP\WEBSERVICES</WSPhysicalLocation>
+      <K2WSPhysicalLocation>\$d\Intranet\Apps\WOLF_STOP\WEBSERVICES</K2WSPhysicalLocation>
+    </Info>
+    
+    <Servers>
+
+      <WebServers>
+        
+        <Webserver>
+          <ID>1</ID>
+          <Name>GTAD4VMWASPN</Name>
+        </Webserver>
+        
+      </WebServers>
+      
+      <WebServiceServers>
+        
+        <WebServiceServer>
+          <ID>1</ID>
+          <Name>GTAD4VMWAS</Name>
+        </WebServiceServer>
+        
+      </WebServiceServers>
+      
+      <DatabaseServers>
+        
+        <DatabaseServer>
+          <ID>1</ID>
+          <Name>XSNW10B640K</Name>
+          <InstanceName>iPRicesDev</InstanceName>
+        </DatabaseServer>
+
+        <DatabaseServer>
+          <ID>1</ID>
+          <Name>XSNW10B640K</Name>
+          <InstanceName>WorkflowServer</InstanceName>
+        </DatabaseServer>
+        
+      </DatabaseServers>
+
+      <WorkflowServers>
+        <WorkflowServer>
+          <ID>1</ID>
+          <Name>INT K2 Server</Name>
+        </WorkflowServer>
+      </WorkflowServers>
+      
+    </Servers>
+    
+  </INT>
+
+  <UAT>
+
+    <Info>
+      <AppSettingEnv>UAT</AppSettingEnv>
+      <AppTestUrl>https://uat.stop.sanofi-aventis.com:9034/STOP/Unsecured/ViewConfig.aspx</AppTestUrl>
+      <WEBPhysicalLocation>\$d\Intranet\Apps\WOLF_STOP</WEBPhysicalLocation>
+      <WSPhysicalLocation>\$d\Intranet\Apps\WOLF_STOP\WEBSERVICES</WSPhysicalLocation>
+      <K2WSPhysicalLocation>\$d\Intranet\Apps\WOLF_STOP\WEBSERVICES</K2WSPhysicalLocation>
+    </Info>
+
+    <Servers>
+
+      <WebServers>
+        
+        <Webserver>
+          <ID>1</ID>
+          <Name>GTAT4VMWASPN1</Name>
+        </Webserver>
+
+        <Webserver>
+          <ID>2</ID>
+          <Name>GTAT4VMWASPN2</Name>
+        </Webserver>
+        
+      </WebServers>
+      
+      <WebServiceServers>
+
+        <WebServiceServer>
+          <ID>1</ID>
+          <Name>GTAT4VMWAS1</Name>
+        </WebServiceServer>
+
+        <WebServiceServer>
+          <ID>2</ID>
+          <Name>GTAT4VMWAS2</Name>
+        </WebServiceServer>
+
+      </WebServiceServers>
+
+      <DatabaseServers>
+
+        <DatabaseServer>
+          <ID>1</ID>
+          <Name>XSNW10B662C</Name>
+          <InstanceName>IPRICES</InstanceName>
+        </DatabaseServer>
+
+        <DatabaseServer>
+          <ID>2</ID>
+          <Name>XSNW10B662C</Name>
+          <InstanceName>WorkflowServer</InstanceName>
+        </DatabaseServer>
+        
+      </DatabaseServers>
+
+      <WorkflowServers>
+        <WorkflowServer>
+          <ID>1</ID>
+          <Name>UAT K2 Server</Name>
+        </WorkflowServer>
+      </WorkflowServers>
+      
+    </Servers>
+    
+  </UAT>
+
+  <STA>
+
+    <Info>
+      <AppSettingEnv>STA</AppSettingEnv>
+      <AppTestUrl>https://sta.stop.sanofi-aventis.com:9034/STOP/Unsecured/ViewConfig.aspx</AppTestUrl>
+      <WEBPhysicalLocation>\$d\Intranet\Apps\WOLF_STOP</WEBPhysicalLocation>
+      <WSPhysicalLocation>\$d\Intranet\Apps\WOLF_STOP\WEBSERVICES</WSPhysicalLocation>
+      <K2WSPhysicalLocation>\$d\Intranet\Apps\WOLF_STOP\WEBSERVICES</K2WSPhysicalLocation>
+    </Info>
+
+    <Servers>
+
+      <WebServers>
+
+        <Webserver>
+          <ID>1</ID>
+          <Name>GTAT4VMWASPN3</Name>
+        </Webserver>
+
+        <Webserver>
+          <ID>2</ID>
+          <Name>GTAT4VMWASPN4</Name>
+        </Webserver>
+
+      </WebServers>
+
+      <WebServiceServers>
+
+        <WebServiceServer>
+          <ID>1</ID>
+          <Name>GTAQ4WMOSS1</Name>
+        </WebServiceServer>
+
+        <WebServiceServer>
+          <ID>2</ID>
+          <Name>GTAQ4WMOSS2</Name>
+        </WebServiceServer>
+
+      </WebServiceServers>
+
+      <DatabaseServers>
+
+        <DatabaseServer>
+          <ID>1</ID>
+          <Name>XSNW10B662C</Name>
+          <InstanceName>IPRICES</InstanceName>
+        </DatabaseServer>
+
+        <DatabaseServer>
+          <ID>2</ID>
+          <Name>XSNW10B662C</Name>
+          <InstanceName>WorkflowServer</InstanceName>
+        </DatabaseServer>
+
+      </DatabaseServers>
+
+      <WorkflowServers>
+        <WorkflowServer>
+          <ID>1</ID>
+          <Name>STA K2 Server</Name>
+        </WorkflowServer>
+      </WorkflowServers>
+
+    </Servers>
+    
+  </STA>
+
+  <PROD>
+    
+    <Info>
+      <AppSettingEnv>PROD</AppSettingEnv>
+      <AppTestUrl>https://stop.sanofi-aventis.com:9034/STOP/Unsecured/ViewConfig.aspx</AppTestUrl>
+      <WEBPhysicalLocation>\$d\Intranet\Apps\WOLF_STOP</WEBPhysicalLocation>
+      <WSPhysicalLocation>\$d\Intranet\Apps\WOLF_STOP\WEBSERVICES</WSPhysicalLocation>
+      <K2WSPhysicalLocation>\$d\Intranet\Apps\WOLF_STOP\WEBSERVICES</K2WSPhysicalLocation>
+    </Info>
+
+    <Servers>
+
+      <WebServers>
+
+        <Webserver>
+          <ID>1</ID>
+          <Name>GTAT4VMWASPN1</Name>
+        </Webserver>
+
+        <Webserver>
+          <ID>2</ID>
+          <Name>GTAT4VMWASPN2</Name>
+        </Webserver>
+
+        <Webserver>
+          <ID>3</ID>
+          <Name>GTAT4VMWASPN3</Name>
+        </Webserver>
+
+        <Webserver>
+          <ID>4</ID>
+          <Name>GTAT4VMWASPN4</Name>
+        </Webserver>
+
+      </WebServers>
+
+      <WebServiceServers>
+
+        <WebServiceServer>
+          <ID>1</ID>
+          <Name>GTAT4VMWAS1PROD</Name>
+        </WebServiceServer>
+
+        <WebServiceServer>
+          <ID>2</ID>
+          <Name>GTAT4VMWAS2PROD</Name>
+        </WebServiceServer>
+
+      </WebServiceServers>
+
+      <DatabaseServers>
+
+        <DatabaseServer>
+          <ID>1</ID>
+          <Name>XSNW10B662K</Name>
+          <InstanceName>IPRICES</InstanceName>
+        </DatabaseServer>
+
+        <DatabaseServer>
+          <ID>2</ID>
+          <Name>XSNW10B662K</Name>
+          <InstanceName>WorkflowServer</InstanceName>
+        </DatabaseServer>
+
+      </DatabaseServers>
+
+      <WorkflowServers>
+        <WorkflowServer>
+          <ID>1</ID>
+          <Name>PROD K2 Server</Name>
+        </WorkflowServer>
+      </WorkflowServers>
+      
+    </Servers>
+    
+  </PROD>
+  
+</STOP>

@@ -1,0 +1,11 @@
+C:\Users\ouvashisht.banka\Desktop\DMT\NeXT.DMT.Services.Contracts\bin\Debug\NeXT.DMT.Services.Contracts.dll
+C:\Users\ouvashisht.banka\Desktop\DMT\NeXT.DMT.Services.Contracts\bin\Debug\NeXT.DMT.Services.Contracts.pdb
+C:\Users\ouvashisht.banka\Desktop\DMT\NeXT.DMT.Services.Contracts\bin\Debug\NeXT.DMT.Entities.dll
+C:\Users\ouvashisht.banka\Desktop\DMT\NeXT.DMT.Services.Contracts\bin\Debug\NeXT.DMT.Utilities.dll
+C:\Users\ouvashisht.banka\Desktop\DMT\NeXT.DMT.Services.Contracts\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\ouvashisht.banka\Desktop\DMT\NeXT.DMT.Services.Contracts\bin\Debug\NeXT.DMT.Entities.pdb
+C:\Users\ouvashisht.banka\Desktop\DMT\NeXT.DMT.Services.Contracts\bin\Debug\NeXT.DMT.Utilities.pdb
+C:\Users\ouvashisht.banka\Desktop\DMT\NeXT.DMT.Services.Contracts\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\ouvashisht.banka\Desktop\DMT\NeXT.DMT.Services.Contracts\obj\Debug\NeXT.DMT.Services.Contracts.csprojResolveAssemblyReference.cache
+C:\Users\ouvashisht.banka\Desktop\DMT\NeXT.DMT.Services.Contracts\obj\Debug\NeXT.DMT.Services.Contracts.dll
+C:\Users\ouvashisht.banka\Desktop\DMT\NeXT.DMT.Services.Contracts\obj\Debug\NeXT.DMT.Services.Contracts.pdb

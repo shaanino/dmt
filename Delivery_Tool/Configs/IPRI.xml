@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<IPRI>
+  
+  <INT>
+    
+    <Info>
+      <AppSettingEnv>INT</AppSettingEnv>
+      <AppTestUrl>http://int.iprices.sanofi-aventis.com/iPRices/Unsecured/ViewConfig.aspx</AppTestUrl>
+      <WEBPhysicalLocation>\$d\Intranet\Apps\IPRICESV2</WEBPhysicalLocation>
+      <WSPhysicalLocation>\$d\Intranet\Apps\IPRICESV2\WEBSERVICES</WSPhysicalLocation>
+      <K2WSPhysicalLocation></K2WSPhysicalLocation>
+    </Info>
+    
+    <Servers>
+
+      <WebServers>
+        
+        <Webserver>
+          <ID>1</ID>
+          <Name>GTAD4VMWASPN</Name>
+        </Webserver>
+        
+      </WebServers>
+      
+      <WebServiceServers>
+        
+        <WebServiceServer>
+          <ID>1</ID>
+          <Name>GTAD4VMWAS</Name>
+        </WebServiceServer>
+        
+      </WebServiceServers>
+      
+      <DatabaseServers>
+        
+        <DatabaseServer>
+          <ID>1</ID>
+          <Name>XSNW10B640K</Name>
+          <InstanceName>iPRicesDev</InstanceName>
+        </DatabaseServer>
+
+        <DatabaseServer>
+          <ID>1</ID>
+          <Name>XSNW10B640K</Name>
+          <InstanceName>WorkflowServer</InstanceName>
+        </DatabaseServer>
+        
+      </DatabaseServers>
+
+      <ReportingServers>
+        
+        <ReportingServer>
+          <ID>1</ID>
+          <Name>GTYSAPPVM2</Name>
+        </ReportingServer>
+        
+      </ReportingServers>
+      
+      <BatchServers>
+        
+        <BatchServer>
+          <ID>1</ID>
+          <Name>GTYSAPPVMR18</Name>
+        </BatchServer>
+      
+      </BatchServers>
+      
+    </Servers>
+    
+  </INT>
+
+  <UAT>
+
+    <Info>
+      <AppSettingEnv>UAT</AppSettingEnv>
+      <AppTestUrl>https://uat.iprices.sanofi-aventis.com:9034/IPRICES/Unsecured/ViewConfig.aspx</AppTestUrl>
+      <WEBPhysicalLocation>\$d\Intranet\Apps\IPRICESV2</WEBPhysicalLocation>
+      <WSPhysicalLocation>\$d\Intranet\Apps\IPRICESV2\WEBSERVICES</WSPhysicalLocation>
+      <K2WSPhysicalLocation></K2WSPhysicalLocation>
+    </Info>
+
+    <Servers>
+
+      <WebServers>
+        
+        <Webserver>
+          <ID>1</ID>
+          <Name>GTAT4VMWASPN1</Name>
+        </Webserver>
+
+        <Webserver>
+          <ID>2</ID>
+          <Name>GTAT4VMWASPN2</Name>
+        </Webserver>
+        
+      </WebServers>
+      
+      <WebServiceServers>
+
+        <WebServiceServer>
+          <ID>1</ID>
+          <Name>GTAT4VMWAS1</Name>
+        </WebServiceServer>
+
+        <WebServiceServer>
+          <ID>2</ID>
+          <Name>GTAT4VMWAS2</Name>
+        </WebServiceServer>
+
+      </WebServiceServers>
+
+      <DatabaseServers>
+
+        <DatabaseServer>
+          <ID>1</ID>
+          <Name>XSNW10B662C</Name>
+          <InstanceName>IPRICES</InstanceName>
+        </DatabaseServer>
+
+        <DatabaseServer>
+          <ID>2</ID>
+          <Name>XSNW10B662C</Name>
+          <InstanceName>WorkflowServer</InstanceName>
+        </DatabaseServer>
+        
+      </DatabaseServers>
+
+      <ReportingServers>
+
+        <ReportingServer>
+          <ID>1</ID>
+          <Name>GTYSAPPVM2UAT</Name>
+        </ReportingServer>
+
+      </ReportingServers>
+      
+      <BatchServers>
+
+        <BatchServer>
+          <ID>1</ID>
+          <Name>GTYSAPPVM18UAT</Name>
+        </BatchServer>
+
+      </BatchServers>
+      
+    </Servers>
+    
+  </UAT>
+
+  <STA>
+
+    <Info>
+      <AppSettingEnv>STA</AppSettingEnv>
+      <AppTestUrl>https://sta.iprices.sanofi-aventis.com:9034/IPRICES/Unsecured/ViewConfig.aspx</AppTestUrl>
+      <WEBPhysicalLocation>\$d\Intranet\Apps\IPRICESV2</WEBPhysicalLocation>
+      <WSPhysicalLocation>\$d\Intranet\Apps\IPRICESV2\WEBSERVICES</WSPhysicalLocation>
+      <K2WSPhysicalLocation></K2WSPhysicalLocation>
+    </Info>
+
+    <Servers>
+
+      <WebServers>
+
+        <Webserver>
+          <ID>1</ID>
+          <Name>GTAT4VMWASPN3</Name>
+        </Webserver>
+
+        <Webserver>
+          <ID>2</ID>
+          <Name>GTAT4VMWASPN4</Name>
+        </Webserver>
+
+      </WebServers>
+
+      <WebServiceServers>
+
+        <WebServiceServer>
+          <ID>1</ID>
+          <Name>GTAQ4WMOSS1</Name>
+        </WebServiceServer>
+
+        <WebServiceServer>
+          <ID>2</ID>
+          <Name>GTAQ4WMOSS2</Name>
+        </WebServiceServer>
+
+      </WebServiceServers>
+
+      <DatabaseServers>
+
+        <DatabaseServer>
+          <ID>1</ID>
+          <Name>XSNW10B662C</Name>
+          <InstanceName>IPRICES</InstanceName>
+        </DatabaseServer>
+
+        <DatabaseServer>
+          <ID>2</ID>
+          <Name>XSNW10B662C</Name>
+          <InstanceName>WorkflowServer</InstanceName>
+        </DatabaseServer>
+
+      </DatabaseServers>
+
+      <ReportingServers>
+
+        <ReportingServer>
+          <ID>1</ID>
+          <Name>GTYSAPPVM2STA</Name>
+        </ReportingServer>
+
+      </ReportingServers>
+
+      <BatchServers>
+
+        <BatchServer>
+          <ID>1</ID>
+          <Name>GTYSAPPVM18STA</Name>
+        </BatchServer>
+
+      </BatchServers>
+
+    </Servers>
+    
+  </STA>
+
+  <PROD>
+    
+    <Info>
+      <AppSettingEnv>PROD</AppSettingEnv>
+      <AppTestUrl>https://iprices.sanofi-aventis.com:9034/IPRICES/Unsecured/ViewConfig.aspx</AppTestUrl>
+      <WEBPhysicalLocation>\$d\Intranet\Apps\IPRICESV2</WEBPhysicalLocation>
+      <WSPhysicalLocation>\$d\Intranet\Apps\IPRICESV2\WEBSERVICES</WSPhysicalLocation>
+      <K2WSPhysicalLocation></K2WSPhysicalLocation>
+    </Info>
+
+    <Servers>
+
+      <WebServers>
+
+        <Webserver>
+          <ID>1</ID>
+          <Name>GTAT4VMWASPN1</Name>
+        </Webserver>
+
+        <Webserver>
+          <ID>2</ID>
+          <Name>GTAT4VMWASPN2</Name>
+        </Webserver>
+
+        <Webserver>
+          <ID>3</ID>
+          <Name>GTAT4VMWASPN3</Name>
+        </Webserver>
+
+        <Webserver>
+          <ID>4</ID>
+          <Name>GTAT4VMWASPN4</Name>
+        </Webserver>
+
+      </WebServers>
+
+      <WebServiceServers>
+
+        <WebServiceServer>
+          <ID>1</ID>
+          <Name>GTAT4VMWAS1PROD</Name>
+        </WebServiceServer>
+
+        <WebServiceServer>
+          <ID>2</ID>
+          <Name>GTAT4VMWAS2PROD</Name>
+        </WebServiceServer>
+
+      </WebServiceServers>
+
+      <DatabaseServers>
+
+        <DatabaseServer>
+          <ID>1</ID>
+          <Name>XSNW10B662K</Name>
+          <InstanceName>IPRICES</InstanceName>
+        </DatabaseServer>
+
+        <DatabaseServer>
+          <ID>2</ID>
+          <Name>XSNW10B662K</Name>
+          <InstanceName>WorkflowServer</InstanceName>
+        </DatabaseServer>
+
+      </DatabaseServers>
+
+      <ReportingServers>
+
+        <ReportingServer>
+          <ID>1</ID>
+          <Name>GTYSAPPVM2PROD</Name>
+        </ReportingServer>
+
+      </ReportingServers>
+
+      <BatchServers>
+
+        <BatchServer>
+          <ID>1</ID>
+          <Name>GTYSAPPVM18PROD</Name>
+        </BatchServer>
+
+      </BatchServers>
+
+    </Servers>
+    
+  </PROD>
+  
+</IPRI>

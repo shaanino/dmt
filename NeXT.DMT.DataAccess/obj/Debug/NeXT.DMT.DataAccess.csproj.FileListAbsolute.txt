@@ -1,0 +1,11 @@
+C:\Users\ouvashisht.banka\Desktop\DMT\NeXT.DMT.DataAccess\bin\Debug\NeXT.DMT.DataAccess.dll
+C:\Users\ouvashisht.banka\Desktop\DMT\NeXT.DMT.DataAccess\bin\Debug\NeXT.DMT.DataAccess.pdb
+C:\Users\ouvashisht.banka\Desktop\DMT\NeXT.DMT.DataAccess\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\ouvashisht.banka\Desktop\DMT\NeXT.DMT.DataAccess\bin\Debug\NeXT.DMT.Entities.dll
+C:\Users\ouvashisht.banka\Desktop\DMT\NeXT.DMT.DataAccess\bin\Debug\NeXT.DMT.Utilities.dll
+C:\Users\ouvashisht.banka\Desktop\DMT\NeXT.DMT.DataAccess\bin\Debug\NeXT.DMT.Entities.pdb
+C:\Users\ouvashisht.banka\Desktop\DMT\NeXT.DMT.DataAccess\bin\Debug\NeXT.DMT.Utilities.pdb
+C:\Users\ouvashisht.banka\Desktop\DMT\NeXT.DMT.DataAccess\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\ouvashisht.banka\Desktop\DMT\NeXT.DMT.DataAccess\obj\Debug\NeXT.DMT.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\ouvashisht.banka\Desktop\DMT\NeXT.DMT.DataAccess\obj\Debug\NeXT.DMT.DataAccess.dll
+C:\Users\ouvashisht.banka\Desktop\DMT\NeXT.DMT.DataAccess\obj\Debug\NeXT.DMT.DataAccess.pdb

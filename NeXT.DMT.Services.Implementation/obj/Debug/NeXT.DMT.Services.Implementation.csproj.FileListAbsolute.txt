@@ -1,0 +1,17 @@
+C:\Users\ouvashisht.banka\Desktop\DMT\NeXT.DMT.Services.Implementation\bin\Debug\NeXT.DMT.Services.Implementation.dll
+C:\Users\ouvashisht.banka\Desktop\DMT\NeXT.DMT.Services.Implementation\bin\Debug\NeXT.DMT.Services.Implementation.pdb
+C:\Users\ouvashisht.banka\Desktop\DMT\NeXT.DMT.Services.Implementation\bin\Debug\log4net.dll
+C:\Users\ouvashisht.banka\Desktop\DMT\NeXT.DMT.Services.Implementation\bin\Debug\NeXT.DMT.DataAccess.dll
+C:\Users\ouvashisht.banka\Desktop\DMT\NeXT.DMT.Services.Implementation\bin\Debug\NeXT.DMT.Entities.dll
+C:\Users\ouvashisht.banka\Desktop\DMT\NeXT.DMT.Services.Implementation\bin\Debug\NeXT.DMT.Services.Contracts.dll
+C:\Users\ouvashisht.banka\Desktop\DMT\NeXT.DMT.Services.Implementation\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\ouvashisht.banka\Desktop\DMT\NeXT.DMT.Services.Implementation\bin\Debug\NeXT.DMT.Utilities.dll
+C:\Users\ouvashisht.banka\Desktop\DMT\NeXT.DMT.Services.Implementation\bin\Debug\NeXT.DMT.DataAccess.pdb
+C:\Users\ouvashisht.banka\Desktop\DMT\NeXT.DMT.Services.Implementation\bin\Debug\NeXT.DMT.Entities.pdb
+C:\Users\ouvashisht.banka\Desktop\DMT\NeXT.DMT.Services.Implementation\bin\Debug\NeXT.DMT.Services.Contracts.pdb
+C:\Users\ouvashisht.banka\Desktop\DMT\NeXT.DMT.Services.Implementation\bin\Debug\log4net.xml
+C:\Users\ouvashisht.banka\Desktop\DMT\NeXT.DMT.Services.Implementation\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\ouvashisht.banka\Desktop\DMT\NeXT.DMT.Services.Implementation\bin\Debug\NeXT.DMT.Utilities.pdb
+C:\Users\ouvashisht.banka\Desktop\DMT\NeXT.DMT.Services.Implementation\obj\Debug\NeXT.DMT.Services.Implementation.csprojResolveAssemblyReference.cache
+C:\Users\ouvashisht.banka\Desktop\DMT\NeXT.DMT.Services.Implementation\obj\Debug\NeXT.DMT.Services.Implementation.dll
+C:\Users\ouvashisht.banka\Desktop\DMT\NeXT.DMT.Services.Implementation\obj\Debug\NeXT.DMT.Services.Implementation.pdb

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ReferenceService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:8494/ReferenceService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:8494/ReferenceService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:8494/ReferenceService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/NeXT.DMT.Entities" />
+      <xsd:import schemaLocation="http://localhost:8494/ReferenceService.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://localhost:8494/ReferenceService.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/NeXT.DMT.Entities.Json" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IReferenceService_GetAllApplications_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllApplications" />
+  </wsdl:message>
+  <wsdl:message name="IReferenceService_GetAllApplications_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllApplicationsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReferenceService_GetApplication_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetApplication" />
+  </wsdl:message>
+  <wsdl:message name="IReferenceService_GetApplication_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetApplicationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReferenceService_GetAllPersons_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllPersons" />
+  </wsdl:message>
+  <wsdl:message name="IReferenceService_GetAllPersons_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllPersonsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReferenceService_PerformTheMagic_InputMessage">
+    <wsdl:part name="parameters" element="tns:PerformTheMagic" />
+  </wsdl:message>
+  <wsdl:message name="IReferenceService_PerformTheMagic_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PerformTheMagicResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IReferenceService">
+    <wsdl:operation name="GetAllApplications">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReferenceService/GetAllApplications" message="tns:IReferenceService_GetAllApplications_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReferenceService/GetAllApplicationsResponse" message="tns:IReferenceService_GetAllApplications_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetApplication">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReferenceService/GetApplication" message="tns:IReferenceService_GetApplication_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReferenceService/GetApplicationResponse" message="tns:IReferenceService_GetApplication_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllPersons">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReferenceService/GetAllPersons" message="tns:IReferenceService_GetAllPersons_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReferenceService/GetAllPersonsResponse" message="tns:IReferenceService_GetAllPersons_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PerformTheMagic">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReferenceService/PerformTheMagic" message="tns:IReferenceService_PerformTheMagic_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReferenceService/PerformTheMagicResponse" message="tns:IReferenceService_PerformTheMagic_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IReferenceService" type="tns:IReferenceService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetAllApplications">
+      <soap:operation soapAction="http://tempuri.org/IReferenceService/GetAllApplications" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetApplication">
+      <soap:operation soapAction="http://tempuri.org/IReferenceService/GetApplication" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllPersons">
+      <soap:operation soapAction="http://tempuri.org/IReferenceService/GetAllPersons" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PerformTheMagic">
+      <soap:operation soapAction="http://tempuri.org/IReferenceService/PerformTheMagic" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ReferenceService">
+    <wsdl:port name="BasicHttpBinding_IReferenceService" binding="tns:BasicHttpBinding_IReferenceService">
+      <soap:address location="http://localhost:8494/ReferenceService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

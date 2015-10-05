@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Deliverables>
+  
+  <Deliverable>
+    <ID>1</ID>
+    <Name>Web</Name>
+    <Code>WEB</Code>
+  </Deliverable>
+
+  <Deliverable>
+    <ID>2</ID>
+    <Name>Web Service</Name>
+    <Code>WS</Code>
+  </Deliverable>
+
+  <Deliverable>
+    <ID>3</ID>
+    <Name>Database Script</Name>
+    <Code>DB</Code>
+  </Deliverable>
+
+  <Deliverable>
+    <ID>4</ID>
+    <Name>K2 Process</Name>
+    <Code>K2PROCESS</Code>
+  </Deliverable>
+  
+  <Deliverable>
+    <ID>5</ID>
+    <Name>Batch File</Name>
+    <Code>BATCH</Code>
+  </Deliverable>
+
+  <Deliverable>
+    <ID>6</ID>
+    <Name>Report</Name>
+    <Code>REPORT</Code>
+  </Deliverable>
+  
+</Deliverables>

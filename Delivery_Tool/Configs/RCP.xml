@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RCP>
+  
+  <INT>
+    
+    <Info>
+      <AppSettingEnv>INT</AppSettingEnv>
+      <AppTestUrl>http://192.168.211.251/</AppTestUrl>
+      <WEBPhysicalLocation>\$c\inetpub\wwwroot\RCPB</WEBPhysicalLocation>
+      <WSPhysicalLocation></WSPhysicalLocation>
+      <K2WSPhysicalLocation></K2WSPhysicalLocation>
+    </Info>
+
+    <Servers>
+
+      <WebServers>
+
+        <Webserver>
+          <ID>1</ID>
+          <Name>GTYSAPPCLUS01</Name>
+        </Webserver>
+
+      </WebServers>
+      
+      <DatabaseServers>
+
+        <DatabaseServer>
+          <ID>1</ID>
+          <Name>GTYWSQLDEV1</Name>
+          <InstanceName>SRCP01TDB</InstanceName>
+        </DatabaseServer>
+        
+      </DatabaseServers>
+      
+    </Servers>
+    
+  </INT>
+
+  <UAT>
+
+    <Info>
+      <AppSettingEnv>UAT</AppSettingEnv>
+      <AppTestUrl>http://uat-cdd.sanofi.com/</AppTestUrl>
+      <WEBPhysicalLocation>\$c\inetpub\wwwroot\RCPB</WEBPhysicalLocation>
+      <WSPhysicalLocation></WSPhysicalLocation>
+      <K2WSPhysicalLocation></K2WSPhysicalLocation>
+    </Info>
+
+    <Servers>
+
+      <WebServers>
+
+        <Webserver>
+          <ID>1</ID>
+          <Name>GTYSAPPCLUR01</Name>
+        </Webserver>
+
+      </WebServers>
+
+      <DatabaseServers>
+
+        <DatabaseServer>
+          <ID>1</ID>
+          <Name>GTYWSQLREC1</Name>
+          <InstanceName>SRCP01TRB</InstanceName>
+        </DatabaseServer>
+        
+      </DatabaseServers>
+
+    </Servers>
+    
+  </UAT>
+
+  <STA>
+
+    <Info>
+      <AppSettingEnv>STA</AppSettingEnv>
+      <AppTestUrl>http://sta-cdd.sanofi.com/</AppTestUrl>
+      <WEBPhysicalLocation>\$c\inetpub\wwwroot\RCPB</WEBPhysicalLocation>
+      <WSPhysicalLocation></WSPhysicalLocation>
+      <K2WSPhysicalLocation></K2WSPhysicalLocation>
+    </Info>
+
+    <Servers>
+
+      <WebServers>
+
+        <Webserver>
+          <ID>1</ID>
+          <Name>GTYSAPPCLUS02</Name>
+        </Webserver>
+
+      </WebServers>
+
+      <DatabaseServers>
+
+        <DatabaseServer>
+          <ID>1</ID>
+          <Name>GTAQ4WMUTSQL1</Name>
+          <InstanceName>SRCP01TQB</InstanceName>
+        </DatabaseServer>
+        
+      </DatabaseServers>
+
+    </Servers>
+    
+  </STA>
+
+  <PROD>
+
+    <Info>
+      <AppSettingEnv>PROD</AppSettingEnv>
+      <AppTestUrl>http://cdd.sanofi.com/</AppTestUrl>
+      <WEBPhysicalLocation>\$c\inetpub\wwwroot\RCPB</WEBPhysicalLocation>
+      <WSPhysicalLocation></WSPhysicalLocation>
+      <K2WSPhysicalLocation></K2WSPhysicalLocation>
+    </Info>
+
+    <Servers>
+
+      <WebServers>
+
+        <Webserver>
+          <ID>1</ID>
+          <Name>GTYSAPPCLUP01</Name>
+        </Webserver>
+
+      </WebServers>
+
+      <DatabaseServers>
+
+        <DatabaseServer>
+          <ID>1</ID>
+          <Name>GTYVMUTSQL4</Name>
+          <InstanceName>SRCP01TPB</InstanceName>
+        </DatabaseServer>
+        
+      </DatabaseServers>
+
+    </Servers>
+    
+  </PROD>
+  
+</RCP>

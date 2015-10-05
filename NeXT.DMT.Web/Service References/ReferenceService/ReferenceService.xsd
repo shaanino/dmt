@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/NeXT.DMT.Entities" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/NeXT.DMT.Entities" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:8494/ReferenceService.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:import schemaLocation="http://localhost:8494/ReferenceService.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/NeXT.DMT.Entities.Json" />
+  <xs:complexType name="ArrayOfApplicationBE">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ApplicationBE" nillable="true" type="tns:ApplicationBE" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfApplicationBE" nillable="true" type="tns:ArrayOfApplicationBE" />
+  <xs:complexType name="ApplicationBE">
+    <xs:sequence>
+      <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" name="_x003C_Deliverables_x003E_k__BackingField" nillable="true" type="q1:ArrayOfstring" />
+      <xs:element name="_x003C_FolderName_x003E_k__BackingField" nillable="true" type="xs:string" />
+      <xs:element name="_x003C_ID_x003E_k__BackingField" type="xs:int" />
+      <xs:element name="_x003C_Name_x003E_k__BackingField" nillable="true" type="xs:string" />
+      <xs:element name="_x003C_Quadri_x003E_k__BackingField" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ApplicationBE" nillable="true" type="tns:ApplicationBE" />
+  <xs:complexType name="ArrayOfPersonBE">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PersonBE" nillable="true" type="tns:PersonBE" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPersonBE" nillable="true" type="tns:ArrayOfPersonBE" />
+  <xs:complexType name="PersonBE">
+    <xs:sequence>
+      <xs:element name="_x003C_id_x003E_k__BackingField" nillable="true" type="xs:string" />
+      <xs:element name="_x003C_name_x003E_k__BackingField" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PersonBE" nillable="true" type="tns:PersonBE" />
+  <xs:complexType name="JsonBE">
+    <xs:sequence>
+      <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/NeXT.DMT.Entities.Json" name="_x003C_Step1_x003E_k__BackingField" nillable="true" type="q2:FirstStep" />
+      <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/NeXT.DMT.Entities.Json" name="_x003C_Step2_x003E_k__BackingField" nillable="true" type="q3:SecondStep" />
+      <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/NeXT.DMT.Entities.Json" name="_x003C_Step3_x003E_k__BackingField" nillable="true" type="q4:ThirdStep" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="JsonBE" nillable="true" type="tns:JsonBE" />
+</xs:schema>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Applications>
+
+  <Application>
+    <ID>1</ID>
+    <Name>Predict!</Name>
+    <Quadri>PRED</Quadri>
+    <FolderName>PRED_(MASP)</FolderName>
+    <Deliverables>
+      <Deliverable>WEB</Deliverable>
+      <Deliverable>DB</Deliverable>
+    </Deliverables>
+  </Application>
+
+  <Application>
+    <ID>2</ID>
+    <Name>iPrices</Name>
+    <Quadri>IPRI</Quadri>
+    <FolderName>IPRI_(MASP)</FolderName>
+    <Deliverables>
+      <Deliverable>WEB</Deliverable>
+      <Deliverable>WS</Deliverable>
+      <Deliverable>DB</Deliverable>
+      <Deliverable>REPORT</Deliverable>
+      <Deliverable>BATCH</Deliverable>
+    </Deliverables>
+  </Application>
+
+  <Application>
+    <ID>3</ID>
+    <Name>Stop</Name>
+    <Quadri>STOP</Quadri>
+    <FolderName>STOP_(MASP)</FolderName>
+    <Deliverables>
+      <Deliverable>WEB</Deliverable>
+      <Deliverable>WS</Deliverable>
+      <Deliverable>DB</Deliverable>
+      <Deliverable>K2PROCESS</Deliverable>
+    </Deliverables>
+  </Application>
+  
+  <Application>
+    <ID>4</ID>
+    <Name>Club De Direction</Name>
+    <Quadri>RCP</Quadri>
+    <FolderName>RCP_(MASP)</FolderName>
+    <Deliverables>
+      <Deliverable>WEB</Deliverable>
+      <Deliverable>DB</Deliverable>
+    </Deliverables>
+  </Application>
+
+  <Application>
+    <ID>5</ID>
+    <Name>Atlas</Name>
+    <Quadri>ATLA</Quadri>
+    <FolderName>ATLA_(MASP)</FolderName>
+    <Deliverables>
+      <Deliverable>WEB</Deliverable>
+      <Deliverable>WS</Deliverable>
+      <Deliverable>DB</Deliverable>
+      <Deliverable>REPORT</Deliverable>
+    </Deliverables>
+  </Application>
+
+  <Application>
+    <ID>6</ID>
+    <Name>Prom</Name>
+    <Quadri>PROM</Quadri>
+    <FolderName>PROM_(MASP)</FolderName>
+    <Deliverables>
+      <Deliverable>WEB</Deliverable>
+      <Deliverable>WS</Deliverable>
+      <Deliverable>K2WS</Deliverable>
+      <Deliverable>DB</Deliverable>
+      <Deliverable>K2PROCESS</Deliverable>
+    </Deliverables>
+  </Application>
+  
+</Applications>

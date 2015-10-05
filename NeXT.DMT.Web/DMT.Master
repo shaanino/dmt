@@ -1,0 +1,55 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="DMT.master.cs" Inherits="NeXT.DMT.Web.DMT"%>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    
+    <title>Deployment Management Tool</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    
+    
+    <asp:ContentPlaceHolder ID="ContentPlaceHolderHead" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <div id="divBodyWrap">
+    
+        <form id="form1" runat="server">
+        <div id="divContentWrap">
+            
+            <div id="divHeader">
+
+            </div>
+
+            <div id="divMainContent">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolderBody" runat="server">
+        
+                </asp:ContentPlaceHolder>
+            </div>
+
+            <div id="divMessages">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolderMessages" runat="server">
+        
+                </asp:ContentPlaceHolder>
+            </div>
+
+        </div>
+        </form>
+
+    </div>
+    
+    <div id="divFooter">
+        <asp:Label ID="LabelFooter" Text="Crafted By Niteen" runat="server" />
+    </div>
+    
+    <!--Javascript should be loaded last-->
+    <script src="js/jquery.js" type="text/javascript"></script>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolderJavaScript" runat="server">
+        
+    </asp:ContentPlaceHolder>
+</body>
+</html>
